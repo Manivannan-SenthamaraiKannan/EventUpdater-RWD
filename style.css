@@ -3,7 +3,8 @@
   border-style: solid;
   background-color: aqua;
   height: 75vh;
-  width: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #event{
@@ -29,3 +30,30 @@
   width: 0 auto;
   background-color: azure;
 }
+
+.first {
+  border-style: solid;
+  width: 50%;
+  margin: 1rem 1rem;
+  justify-content: center ;  
+}
+
+#template{
+  margin: 3rem 8rem;
+  border-style: solid;
+  height: 70%;
+  width: 50%;
+}
+
+img{
+  /* border-style: solid; */
+  border-radius: 100px;
+  width: 70% !important;
+  height: 70% !important;
+}
+.second{
+  border-style: solid;
+  width: 50%;
+  margin: 1rem 1rem;
+}
+
