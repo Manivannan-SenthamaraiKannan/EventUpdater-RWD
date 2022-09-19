@@ -1,9 +1,8 @@
 .container {
   display: block;
   border-style: solid;
-  background-color: aqua;
-  height: 75vh;
-  width: 80%;
+  height: 80vh;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -26,34 +25,52 @@
   flex-direction: row;
   border-style: solid;
   margin: 1rem 1rem;
-  height: 50vh;
+  height: 60vh;
   width: 0 auto;
-  background-color: azure;
 }
 
 .first {
+  display: flex;
+  flex-direction: row;
   border-style: solid;
-  width: 50%;
+  width: 40%;
   margin: 1rem 1rem;
+  align-items: center;
   justify-content: center ;  
 }
-
 #template{
-  margin: 3rem 8rem;
   border-style: solid;
-  height: 70%;
-  width: 50%;
+  padding: 1rem 1rem;
 }
-
 img{
-  /* border-style: solid; */
-  border-radius: 100px;
-  width: 70% !important;
-  height: 70% !important;
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 .second{
+  display: flex;
+  flex-direction: row;
   border-style: solid;
   width: 50%;
+  padding: 2.5rem 1rem;
   margin: 1rem 1rem;
+  font-size: 1.8rem;
 }
 
+#input{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem ;
+  align-items: center;
+  justify-content: center ;
+  margin: 0 auto;
+}
+
+#submit{
+  font-size: 1.5rem;
+}
+
+#cancel{
+  font-size: 1.5rem;
+}
